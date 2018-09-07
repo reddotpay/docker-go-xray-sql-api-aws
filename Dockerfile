@@ -1,12 +1,10 @@
 # Base image:
 FROM reddotpay/docker-go-sql-api:latest
-
 RUN \
-    golang.org/x/lint/golint \
+    go get golang.org/x/lint/golint \
     github.com/stretchr/testify/assert \
     github.com/stretchr/testify/require \
     github.com/aws/aws-xray-sdk-go/... \
-
 # Install golint
 RUN curl -O https://bootstrap.pypa.io/get-pip.py
 RUN python get-pip.py --user
