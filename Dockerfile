@@ -8,3 +8,4 @@ RUN \
     github.com/reddotpay/logger \
     github.com/aws/aws-xray-sdk-go/... \
     github.com/golang-migrate/migrate \
+    github.com/aws/aws-sdk-go \
