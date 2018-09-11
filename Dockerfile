@@ -7,4 +7,4 @@ RUN \
     go.uber.org/zap \
     github.com/reddotpay/logger \
     github.com/aws/aws-xray-sdk-go/... \
-    github.com/golang-migrate \
+    github.com/golang-migrate/migrate \
