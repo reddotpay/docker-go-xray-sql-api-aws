@@ -7,6 +7,4 @@ RUN \
     go.uber.org/zap \
     github.com/reddotpay/logger \
     github.com/aws/aws-xray-sdk-go/... \
-    github.com/golang-migrate/migrate \
-    github.com/aws/aws-sdk-go/aws \
-	github.com/aws/aws-sdk-go/service/s3 \
+    github.com/go-sql-driver/mysql \
