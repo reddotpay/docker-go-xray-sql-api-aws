@@ -8,3 +8,7 @@ RUN \
     github.com/reddotpay/logger \
     github.com/aws/aws-xray-sdk-go/... \
     github.com/go-sql-driver/mysql \
+    github.com/reddotpay/sqlx \
+    github.com/gofrs/uuid \
+    gopkg.in/go-playground/validator.v9 \
+    github.com/reddotpay/logger2
